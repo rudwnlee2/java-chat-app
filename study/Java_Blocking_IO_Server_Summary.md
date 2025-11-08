@@ -38,7 +38,7 @@ RUNNING → WAITING → RUNNING
 - **클라이언트 스레드 N개**: 각 클라이언트 통신 담당
 
 ### 실행 흐름
-```java
+```
 while (true) {
     Socket clientSocket = serverSocket.accept(); // 빠르게 처리
     new Thread(handler).start(); // 새 스레드 생성 후 바로 다음 루프
@@ -52,7 +52,7 @@ while (true) {
 - **독립성**: 각 스레드는 독립적으로 작동
 
 ### 채팅 서버에서 스레드가 필요한 이유
-```java
+```
 // 동시에 각자 작업
 스레드1: 클라이언트A readLine() 대기 중...
 스레드2: 클라이언트B readLine() 대기 중...  
