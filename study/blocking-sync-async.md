@@ -1,4 +1,4 @@
-# Blocking (블록킹), Non-Blocking (논블록킹), Synchronous (동기), Asynchronous (비동기)
+# Blocking (블록킹), Non-Blocking (논블록킹), Synchronous (동기), Asynchronous (비동기) (폴링(polling) 관련 수정필요)
 
 ## Blocking (블록킹), Non-Blocking (논블록킹)
 
